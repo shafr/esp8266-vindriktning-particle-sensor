@@ -45,6 +45,7 @@ void saveConfigCallback() {
     shouldSaveConfig = true;
 }
 
+
 void setup() {
     Serial.begin(115200);
     SerialCom::setup();
